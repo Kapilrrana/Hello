@@ -4,13 +4,15 @@ public class BubbleSort {
 
 	public static void main(String[] args) {
 		 
-		 int a[] = {-2, 0, 1,5,7};
-		 int n = a.length;
-		 boolean sorted = true;
-		 for(int i = 0; i < n-1; i++) {
-			
+		 int a[] = {-2, 0, 1,5,7};//Static array
+		 int n = a.length;	  //.length()
+		 boolean sorted = true;   //Boolean vlaue
 		
-			 
+		//Loops for sorting of array
+		
+		//Loop1
+		for(int i = 0; i < n-1; i++) {
+			 //Loop 2
 			 for(int j = 0; j < n-1-i; j++) {
 				 
 				 if(a[j+1] < a[j]) {
